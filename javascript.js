@@ -1,13 +1,8 @@
 function menuOnClick() {
-  var menuBar = document.getElementById("menu-bar");
-  var nav = document.getElementById("nav");
-  var menuBg = document.getElementById("menu-bg");
-
-  menuBar.classList.toggle("change");
-  nav.classList.toggle("change");
-  menuBg.classList.toggle("change-bg");
-}
-
+  document.getElementById("menu-bar").classList.toggle("change");
+  document.getElementById("nav").classList.toggle("change");
+  document.getElementById("menu-bg").classList.toggle("change-bg");
+  
 function aggiungiAlCarrello() {
   var carrello = document.getElementById("carrello");
   var numero = parseInt(carrello.textContent);
