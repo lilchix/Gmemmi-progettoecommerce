@@ -1,3 +1,38 @@
+header {
+  background-color: #333;
+  padding: 10px 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar__logo img {
+  max-width: 150px;
+}
+
+.navbar__menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar__menu li {
+  margin-right: 20px;
+}
+
+.navbar__menu a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar__cart img {
+  max-width: 30px;
+}
+
 .btn-primary {
   background-color: brown !important;
   border-color: brown !important;
