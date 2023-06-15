@@ -60,7 +60,8 @@ body {
   font-weight: bold;
 }
 
-.menu-bg, #menu {
+.menu-bg,
+#menu {
   top: 0;
   left: 0;
   position: absolute;
@@ -101,7 +102,6 @@ body {
   height: 460px;
   transform: translate(-60%,-30%);
 }
-
 
 .swiper {
   width: 100%;
