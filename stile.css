@@ -211,6 +211,13 @@ body {
   border-radius: 50%;
   transition: 0.3s ease;
 }
+.menu-bg.change-bg {
+  width: 520px;
+  height: 460px;
+  transform: translate(-60%, -30%);
+  transition: 0.3s ease;
+}
+
 
 .change {
   display: block;
