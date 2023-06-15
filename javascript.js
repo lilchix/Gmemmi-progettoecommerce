@@ -8,6 +8,7 @@ function menuOnClick() {
   menuBg.classList.toggle("change-bg");
 }
 
+
 function aggiungiAlCarrello() {
   var carrello = document.getElementById("carrello");
   var numero = parseInt(carrello.textContent);
