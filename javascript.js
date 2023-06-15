@@ -1,6 +1,7 @@
 function menuOnClick() {
-  var menuBar = document.getElementById("menu-bar");
-  var nav = document.getElementById("nav");
+var menuBar = document.getElementById("menu-bar");
+var nav = document.getElementById("nav");
+
   var menuBg = document.getElementById("menu-bg");
 
   menuBar.classList.toggle("change");
