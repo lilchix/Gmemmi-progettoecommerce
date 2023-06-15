@@ -1,14 +1,12 @@
 function menuOnClick() {
-var menuBar = document.getElementById("menu-bar");
-var nav = document.getElementById("nav");
-
+  var menuBar = document.getElementById("menu-bar");
+  var nav = document.getElementById("nav");
   var menuBg = document.getElementById("menu-bg");
 
   menuBar.classList.toggle("change");
   nav.classList.toggle("change");
   menuBg.classList.toggle("change-bg");
 }
-
 
 function aggiungiAlCarrello() {
   var carrello = document.getElementById("carrello");
@@ -29,7 +27,7 @@ function svuotaCarrello() {
   carrello.textContent = 0;
 }
 
-/*swiper*/
+/* Swiper */
 var swiper = new Swiper(".mySwiper", {
   spaceBetween: 30,
   centeredSlides: true,
@@ -44,5 +42,5 @@ var swiper = new Swiper(".mySwiper", {
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
-  }
+  },
 });
