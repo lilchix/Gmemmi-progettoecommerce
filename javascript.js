@@ -8,7 +8,6 @@ function menuOnClick() {
   menuBg.classList.toggle("change-bg");
 }
 
-
 function aggiungiAlCarrello() {
   var carrello = document.getElementById("carrello");
   var numero = parseInt(carrello.textContent);
@@ -28,7 +27,6 @@ function svuotaCarrello() {
   carrello.textContent = 0;
 }
 
-/* Swiper */
 var swiper = new Swiper(".mySwiper", {
   spaceBetween: 30,
   centeredSlides: true,
@@ -43,5 +41,5 @@ var swiper = new Swiper(".mySwiper", {
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
-  },
+  }
 });
