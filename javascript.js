@@ -1,3 +1,11 @@
+function menuOnClick() {
+  var nav = document.getElementById("nav");
+  var menuBg = document.getElementById("menu-bg");
+
+  nav.classList.toggle("change");
+  menuBg.classList.toggle("change-bg");
+}
+
 function aggiungiAlCarrello() {
   var carrello = document.getElementById("carrello");
   var numero = parseInt(carrello.textContent);
