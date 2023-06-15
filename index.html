@@ -1,1 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sito di E-commerce</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <header>
+    <div class="top-bar">
+      <div class="logo">
+        <img src="logo.png" alt="Logo">
+      </div>
+      <div class="menu">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Prodotti</a></li>
+          <li><a href="#">Contatti</a></li>
+        </ul>
+      </div>
+      <div class="cart">
+        <a href="#"><img src="cart.png" alt="Carrello"></a>
+      </div>
+    </div>
+  </header>
+
+  <section id="banner">
+    <h2>Benvenuti nel nostro negozio online!</h2>
+    <p>Scopri le nostre offerte speciali.</p>
+  </section>
+
+  <section id="products">
+    <div class="product">
+      <img src="prodotto1.jpg" alt="Prodotto 1">
+      <h3>Prodotto 1</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <button onclick="addToCart(1)">Aggiungi al carrello</button>
+    </div>
+    <div class="product">
+      <img src="prodotto2.jpg" alt="Prodotto 2">
+      <h3>Prodotto 2</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <button onclick="addToCart(2)">Aggiungi al carrello</button>
+    </div>
+    <!-- Aggiungi altri prodotti qui -->
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Sito di E-commerce. Tutti i diritti riservati.</p>
+  </footer>
+</body>
+</html>
 
