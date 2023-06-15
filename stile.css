@@ -1,1 +1,35 @@
+/* CSS aggiuntivo per la barra superiore */
+.top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+.logo img {
+  max-width: 150px;
+}
+
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.menu ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.cart img {
+  width: 30px;
+  height: 30px;
+}
 
