@@ -1,22 +1,21 @@
-
 function aggiungiAlCarrello() {
   var carrello = document.getElementById("carrello");
-  var numero = parseInt(carrello.innerHTML);
+  var numero = parseInt(carrello.textContent);
   numero++;
-  carrello.innerHTML = numero;
+  carrello.textContent = numero;
 }
+
 function rimuoviDalCarrello() {
   var carrello = document.getElementById("carrello");
-  var numero = parseInt(carrello.innerHTML);
+  var numero = parseInt(carrello.textContent);
   numero--;
-  carrello.innerHTML = numero;
+  carrello.textContent = numero;
 }
+
 function svuotaCarrello() {
   var carrello = document.getElementById("carrello");
-  carrello.innerHTML = 0;
+  carrello.textContent = 0;
 }
-
-
 
 /*swiper*/
 var swiper = new Swiper(".mySwiper", {
@@ -33,5 +32,5 @@ var swiper = new Swiper(".mySwiper", {
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
-  },
-},)
+  }
+});
