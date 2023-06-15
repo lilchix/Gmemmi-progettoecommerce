@@ -50,8 +50,13 @@ body {
 }
 
 #menu {
-  z-index: 2;
+  z-index: 1000;
 }
+
+.menu-bg {
+  z-index: 999;
+}
+
 
 #menu-bar {
   width: 45px;
