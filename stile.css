@@ -102,6 +102,7 @@ body {
 
 .change #bar2 {
   opacity: 0;
+  transform: scale(0);
 }
 
 .change #bar3 {
