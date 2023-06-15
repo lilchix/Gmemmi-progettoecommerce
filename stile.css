@@ -9,11 +9,7 @@ body {
 }
 
 #menu {
-  z-index: 1000;
-}
-
-.menu-bg {
-  z-index: 999;
+  z-index: 2;
 }
 
 #menu-bar {
@@ -64,8 +60,7 @@ body {
   font-weight: bold;
 }
 
-.menu-bg,
-#menu {
+.menu-bg, #menu {
   top: 0;
   left: 0;
   position: absolute;
@@ -78,13 +73,6 @@ body {
   margin: 30px 0 20px 20px;
   background: radial-gradient(circle, #DC052D, #DC052D);
   border-radius: 50%;
-  transition: 0.3s ease;
-}
-
-.change-bg {
-  width: 520px;
-  height: 460px;
-  transform: translate(-60%, -30%);
   transition: 0.3s ease;
 }
 
@@ -102,12 +90,18 @@ body {
 
 .change #bar2 {
   opacity: 0;
-  transform: translateY(-1px) rotateZ(-45deg);
 }
 
 .change #bar3 {
   transform: translateY(-6px) rotateZ(45deg);
 }
+
+.change-bg {
+  width: 520px;
+  height: 460px;
+  transform: translate(-60%,-30%);
+}
+
 
 .swiper {
   width: 100%;
